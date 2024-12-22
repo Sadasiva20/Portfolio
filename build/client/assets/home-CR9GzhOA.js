@@ -1,0 +1,1 @@
+import{j as o}from"./index-DrmYegOL.js";import{n as r}from"./linkedin-CDjofyt7.js";import{H as m}from"./home-PEiwbQaa.js";function n(){return o.jsxs("html",{children:[o.jsx(r,{}),o.jsx(m,{})]})}export{n as default};
