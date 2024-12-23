@@ -74,7 +74,7 @@ export default function App() {
       }
       if (targetSection) {
     
-        targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
+        targetSection.scrollIntoView({ behavior: "smooth", block: "start", inline:"nearest" });
     
         setTimeout(() => {
             const offset = 65; 

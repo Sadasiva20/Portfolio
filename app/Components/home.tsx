@@ -5,19 +5,19 @@ import picture from '../Images/Picture3.png'
 
 export default function Home() {
     return (
-        <div className="flex flex-col min-h-screen bg-primary">
+        <div className="flex flex-col min-h-screen bg-primary overflow-hidden">
             <head>
                 <meta charSet="utf-8" />
                 <title>Home</title>
                 <meta name="description" content="Home" />
                 <meta name = "keyword"   content = "Introduction, Interests and Occupation " />
                 <link rel="canonical" href="https://sivasan29.com/home" />
-                <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';upgrade-insecure-requests;block-all-mixed-content;"/> 
+                <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self'; style-src 'self' ; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'self'; base-uri 'self'; frame-ancestors 'none';upgrade-insecure-requests;block-all-mixed-content;"/>
             </head>
     
            
     
-<main className="bg-primary text-white flex-grow flex flex-col items-center justify-center px-4 py-12 font-sans">
+<main className="bg-primary text-white flex-grow flex flex-col items-center justify-center px-4 py-8 font-sans  ">
     <section className="max-w-2xl text-center mb-8">
     <div className="flex justify-center items-center ">
     <img src= {picture} alt="Picture of me." />

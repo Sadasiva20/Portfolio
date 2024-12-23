@@ -5,13 +5,13 @@ import  linkedin from '../Icons/linkedin.svg';
 
 export default function about() {
     return (
-        <div className="flex flex-col min-h-screen bg-primary  ">
+        <div className="flex flex-col min-h-screen bg-primary overflow-hidden">
         <head>
         <meta charSet="utf-8" />
         <title>About</title>
         <meta name="description" content="About" /> 
         <link rel="canonical" href="https://sivasan29.com/about" />
-        <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';upgrade-insecure-requests;block-all-mixed-content;"/> 
+        <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self'; style-src 'self' ; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'self'; base-uri 'self'; frame-ancestors 'none';upgrade-insecure-requests;block-all-mixed-content;"/>
         </head>
 
         <h3 className="text-3xl md:text-4xl text-white font-bold text-center font-custom2">About</h3>

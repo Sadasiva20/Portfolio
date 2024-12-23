@@ -169,13 +169,13 @@ function nav() {
 const github = "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%20width='32'%20height='32'%20fill='rgba(70,%20128,%20180,1)'%3e%3cpath%20d='M12.001%202C6.47598%202%202.00098%206.475%202.00098%2012C2.00098%2016.425%204.86348%2020.1625%208.83848%2021.4875C9.33848%2021.575%209.52598%2021.275%209.52598%2021.0125C9.52598%2020.775%209.51348%2019.9875%209.51348%2019.15C7.00098%2019.6125%206.35098%2018.5375%206.15098%2017.975C6.03848%2017.6875%205.55098%2016.8%205.12598%2016.5625C4.77598%2016.375%204.27598%2015.9125%205.11348%2015.9C5.90098%2015.8875%206.46348%2016.625%206.65098%2016.925C7.55098%2018.4375%208.98848%2018.0125%209.56348%2017.75C9.65098%2017.1%209.91348%2016.6625%2010.201%2016.4125C7.97598%2016.1625%205.65098%2015.3%205.65098%2011.475C5.65098%2010.3875%206.03848%209.4875%206.67598%208.7875C6.57598%208.5375%206.22598%207.5125%206.77598%206.1375C6.77598%206.1375%207.61348%205.875%209.52598%207.1625C10.326%206.9375%2011.176%206.825%2012.026%206.825C12.876%206.825%2013.726%206.9375%2014.526%207.1625C16.4385%205.8625%2017.276%206.1375%2017.276%206.1375C17.826%207.5125%2017.476%208.5375%2017.376%208.7875C18.0135%209.4875%2018.401%2010.375%2018.401%2011.475C18.401%2015.3125%2016.0635%2016.1625%2013.8385%2016.4125C14.201%2016.725%2014.5135%2017.325%2014.5135%2018.2625C14.5135%2019.6%2014.501%2020.675%2014.501%2021.0125C14.501%2021.275%2014.6885%2021.5875%2015.1885%2021.4875C19.259%2020.1133%2021.9999%2016.2963%2022.001%2012C22.001%206.475%2017.526%202%2012.001%202Z'%3e%3c/path%3e%3c/svg%3e";
 const linkedin = "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%20width='32'%20height='32'%20fill='rgba(70,%20128,%20180,1)'%3e%3cpath%20d='M18.3362%2018.339H15.6707V14.1622C15.6707%2013.1662%2015.6505%2011.8845%2014.2817%2011.8845C12.892%2011.8845%2012.6797%2012.9683%2012.6797%2014.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967%2010.2457%2013.837%209.53325%2015.1367%209.53325C17.8375%209.53325%2018.337%2011.3108%2018.337%2013.6245V18.339H18.3362ZM7.00373%208.57475C6.14573%208.57475%205.45648%207.88025%205.45648%207.026C5.45648%206.1725%206.14648%205.47875%207.00373%205.47875C7.85873%205.47875%208.55173%206.1725%208.55173%207.026C8.55173%207.88025%207.85798%208.57475%207.00373%208.57475ZM8.34023%2018.339H5.66723V9.75H8.34023V18.339ZM19.6697%203H4.32923C3.59498%203%203.00098%203.5805%203.00098%204.29675V19.7033C3.00098%2020.4202%203.59498%2021%204.32923%2021H19.6675C20.401%2021%2021.001%2020.4202%2021.001%2019.7033V4.29675C21.001%203.5805%2020.401%203%2019.6675%203H19.6697Z'%3e%3c/path%3e%3c/svg%3e";
 function about$1() {
-  return /* @__PURE__ */ jsxs("div", { className: "flex flex-col min-h-screen bg-primary  ", children: [
+  return /* @__PURE__ */ jsxs("div", { className: "flex flex-col min-h-screen bg-primary overflow-hidden", children: [
     /* @__PURE__ */ jsxs("head", { children: [
       /* @__PURE__ */ jsx("meta", { charSet: "utf-8" }),
       /* @__PURE__ */ jsx("title", { children: "About" }),
       /* @__PURE__ */ jsx("meta", { name: "description", content: "About" }),
       /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://sivasan29.com/about" }),
-      /* @__PURE__ */ jsx("meta", { "http-equiv": "Content-Security-Policy", content: " default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';upgrade-insecure-requests;block-all-mixed-content;" })
+      /* @__PURE__ */ jsx("meta", { "http-equiv": "Content-Security-Policy", content: " default-src 'self'; script-src 'self'; style-src 'self' ; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'self'; base-uri 'self'; frame-ancestors 'none';upgrade-insecure-requests;block-all-mixed-content;" })
     ] }),
     /* @__PURE__ */ jsx("h3", { className: "text-3xl md:text-4xl text-white font-bold text-center font-custom2", children: "About" }),
     /* @__PURE__ */ jsxs("main", { className: "flex-grow flex flex-col items-center justify-center px-4 py-8", children: [
@@ -326,12 +326,12 @@ const ContactForm = () => {
     setFormData({ firstname: "", lastname: "", email: "", message: "" });
     setErrors({});
   };
-  return /* @__PURE__ */ jsxs("div", { className: "flex flex-col min-h-screen bg-primary", children: [
+  return /* @__PURE__ */ jsxs("div", { className: "flex flex-col min-h-screen bg-primary overflow-hidden", children: [
     /* @__PURE__ */ jsx("meta", { charSet: "utf-8" }),
     /* @__PURE__ */ jsx("h1", { className: "text-3xl md:text-4xl text-white font-bold text-center", children: "Contact" }),
     /* @__PURE__ */ jsx("meta", { name: "description", content: "Contact me" }),
     /* @__PURE__ */ jsx("meta", { name: "keyword", content: "Reach out, firstname, lastname, email, message" }),
-    /* @__PURE__ */ jsx("meta", { "http-equiv": "Content-Security-Policy", content: " default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';upgrade-insecure-requests;block-all-mixed-content;" }),
+    /* @__PURE__ */ jsx("meta", { "http-equiv": "Content-Security-Policy", content: " default-src 'self'; script-src 'self'; style-src 'self' ; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'self'; base-uri 'self'; frame-ancestors 'none';upgrade-insecure-requests;block-all-mixed-content;" }),
     /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://sivasan29.com/contact" }),
     /* @__PURE__ */ jsx("main", { className: "flex-grow flex flex-col items-center justify-center px-4 py-8", children: /* @__PURE__ */ jsx("div", { className: "flex items-center justify-center w-full px-4", children: /* @__PURE__ */ jsx("div", { className: "flex flex-col gap-6 p-8 bg-contact rounded-lg shadow-lg w-full max-w-2xl", children: /* @__PURE__ */ jsx(
       Form,
@@ -438,16 +438,16 @@ const ContactForm = () => {
 };
 const picture = "/assets/Picture3-Cv0roTbN.png";
 function Home() {
-  return /* @__PURE__ */ jsxs("div", { className: "flex flex-col min-h-screen bg-primary", children: [
+  return /* @__PURE__ */ jsxs("div", { className: "flex flex-col min-h-screen bg-primary overflow-hidden", children: [
     /* @__PURE__ */ jsxs("head", { children: [
       /* @__PURE__ */ jsx("meta", { charSet: "utf-8" }),
       /* @__PURE__ */ jsx("title", { children: "Home" }),
       /* @__PURE__ */ jsx("meta", { name: "description", content: "Home" }),
       /* @__PURE__ */ jsx("meta", { name: "keyword", content: "Introduction, Interests and Occupation " }),
       /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://sivasan29.com/home" }),
-      /* @__PURE__ */ jsx("meta", { "http-equiv": "Content-Security-Policy", content: " default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';upgrade-insecure-requests;block-all-mixed-content;" })
+      /* @__PURE__ */ jsx("meta", { "http-equiv": "Content-Security-Policy", content: " default-src 'self'; script-src 'self'; style-src 'self' ; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'self'; base-uri 'self'; frame-ancestors 'none';upgrade-insecure-requests;block-all-mixed-content;" })
     ] }),
-    /* @__PURE__ */ jsx("main", { className: "bg-primary text-white flex-grow flex flex-col items-center justify-center px-4 py-12 font-sans", children: /* @__PURE__ */ jsxs("section", { className: "max-w-2xl text-center mb-8", children: [
+    /* @__PURE__ */ jsx("main", { className: "bg-primary text-white flex-grow flex flex-col items-center justify-center px-4 py-8 font-sans  ", children: /* @__PURE__ */ jsxs("section", { className: "max-w-2xl text-center mb-8", children: [
       /* @__PURE__ */ jsx("div", { className: "flex justify-center items-center ", children: /* @__PURE__ */ jsx("img", { src: picture, alt: "Picture of me." }) }),
       /* @__PURE__ */ jsx("h3", { className: "text-lg mt-2 text-center font-bold font-custom2", children: " Welcome! I’m Siva Sankar, a Software Engineer " }),
       /* @__PURE__ */ jsx("p", { className: "text-base mb-6 leading-relaxed font-custom2", children: "I have a passion for creating dynamic web applications and tackling complex challenges with innovative technology solutions. This portfolio showcases my professional journey, featuring my experience, projects, and personal interests. I invite you to explore my work and discover how I can contribute to your business success." }),
@@ -541,10 +541,10 @@ const cardData = [
   }
 ];
 function Experience() {
-  return /* @__PURE__ */ jsxs("div", { className: "flex flex-col min-h-screen bg-primary", children: [
+  return /* @__PURE__ */ jsxs("div", { className: "flex flex-col min-h-screen bg-primary overflow-hidden", children: [
     /* @__PURE__ */ jsx("h1", { className: "text-3xl md:text-4xl font-bold text-white text-center font-custom2", children: "Experience" }),
-    /* @__PURE__ */ jsxs("main", { className: "flex-grow flex flex-col items-center justify-center px-4 py-8", children: [
-      /* @__PURE__ */ jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6", children: cardData.map((card) => /* @__PURE__ */ jsxs(Card, { className: "w-full max-w-[520px] border-none transition-transform transform hover:scale-105 relative bg-transparent", children: [
+    /* @__PURE__ */ jsx("main", { className: "flex-grow flex flex-col items-center justify-center px-4 py-8", children: /* @__PURE__ */ jsxs("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6", children: [
+      cardData.map((card) => /* @__PURE__ */ jsxs(Card, { className: "w-full max-w-[520px] border-none transition-transform transform hover:scale-105 relative bg-transparent", children: [
         /* @__PURE__ */ jsxs(CardBody, { className: "flex flex-row flex-wrap p-0 sm:flex-nowrap bg-transparent", children: [
           /* @__PURE__ */ jsx(
             Image,
@@ -575,12 +575,9 @@ function Experience() {
             children: card.linktitle
           }
         ) })
-      ] }, card.id)) }),
-      /* @__PURE__ */ jsx("div", { className: "relative w-full mt-8 px-32", children: /* @__PURE__ */ jsx("a", { href: "https://drive.google.com/uc?export=download&id=1lI6aejYHkD-QhnIqIaKkWw8VWiINw52b", children: /* @__PURE__ */ jsxs("button", { className: "flex items-center bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg text-lg relative left-4", children: [
-        " ",
-        "Resume"
-      ] }) }) })
-    ] }),
+      ] }, card.id)),
+      /* @__PURE__ */ jsx("div", { className: "col-span-1 sm:col-span-2 mt-4 flex justify-start", children: /* @__PURE__ */ jsx("a", { href: "https://drive.google.com/uc?export=download&id=1lI6aejYHkD-QhnIqIaKkWw8VWiINw52b", children: /* @__PURE__ */ jsx("button", { className: "bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg text-lg w-full sm:w-auto", children: "Resume" }) }) })
+    ] }) }),
     /* @__PURE__ */ jsx("footer", { className: "bg-primary text-white py-6 text-center", children: /* @__PURE__ */ jsxs("p", { className: "flex justify-center items-center space-x-8 mb-0", children: [
       /* @__PURE__ */ jsxs("span", { className: "text-lg font-custom2", children: [
         "© ",
@@ -671,7 +668,7 @@ function App() {
         targetSection = document.getElementById("contact");
       }
       if (targetSection) {
-        targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
+        targetSection.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
         setTimeout(() => {
           const offset = 65;
           const sectionPosition = targetSection.getBoundingClientRect().top + window.scrollY;
@@ -754,9 +751,9 @@ const route5 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   __proto__: null,
   default: home
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/assets/entry.client-C7iqkMJF.js", "imports": ["/assets/index-DrmYegOL.js", "/assets/components-BkFyVmph.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/root-CKILvQ1K.js", "imports": ["/assets/index-DrmYegOL.js", "/assets/components-BkFyVmph.js", "/assets/linkedin-CDjofyt7.js", "/assets/about-Bqqqlth_.js", "/assets/contact-DMIVbWhR.js", "/assets/home-PEiwbQaa.js", "/assets/experience-ZHpBgxeV.js", "/assets/GlobalConfig-BfVCAYU5.js", "/assets/chunk-DBLREEYE-Bsf-I9Ht.js"], "css": ["/assets/root-DoMWJ5zy.css"] }, "routes/experience": { "id": "routes/experience", "parentId": "root", "path": "experience", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/experience-BB92-28r.js", "imports": ["/assets/index-DrmYegOL.js", "/assets/linkedin-CDjofyt7.js", "/assets/experience-ZHpBgxeV.js", "/assets/chunk-DBLREEYE-Bsf-I9Ht.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/contact-BwnoLX36.js", "imports": ["/assets/index-DrmYegOL.js", "/assets/linkedin-CDjofyt7.js", "/assets/contact-DMIVbWhR.js", "/assets/chunk-DBLREEYE-Bsf-I9Ht.js"], "css": [] }, "routes/_index": { "id": "routes/_index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/_index-LYpH29-7.js", "imports": ["/assets/index-DrmYegOL.js", "/assets/linkedin-CDjofyt7.js", "/assets/home-PEiwbQaa.js"], "css": [] }, "routes/about": { "id": "routes/about", "parentId": "root", "path": "about", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/about-C1zTZlN4.js", "imports": ["/assets/index-DrmYegOL.js", "/assets/linkedin-CDjofyt7.js", "/assets/about-Bqqqlth_.js"], "css": [] }, "routes/home": { "id": "routes/home", "parentId": "root", "path": "home", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/home-CR9GzhOA.js", "imports": ["/assets/index-DrmYegOL.js", "/assets/linkedin-CDjofyt7.js", "/assets/home-PEiwbQaa.js"], "css": [] } }, "url": "/assets/manifest-abd11e5a.js", "version": "abd11e5a" };
+const serverManifest = { "entry": { "module": "/assets/entry.client-C7iqkMJF.js", "imports": ["/assets/index-DrmYegOL.js", "/assets/components-BkFyVmph.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/root-DVKpOAJ-.js", "imports": ["/assets/index-DrmYegOL.js", "/assets/components-BkFyVmph.js", "/assets/linkedin-CDjofyt7.js", "/assets/about-CDpWLNqV.js", "/assets/contact-CRDxSL-C.js", "/assets/home-VUe2UPFX.js", "/assets/experience-C6Vktjpw.js", "/assets/GlobalConfig-BfVCAYU5.js", "/assets/chunk-DBLREEYE-Bsf-I9Ht.js"], "css": ["/assets/root-B1pnQab6.css"] }, "routes/experience": { "id": "routes/experience", "parentId": "root", "path": "experience", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/experience-Bv8jVlsh.js", "imports": ["/assets/index-DrmYegOL.js", "/assets/linkedin-CDjofyt7.js", "/assets/experience-C6Vktjpw.js", "/assets/chunk-DBLREEYE-Bsf-I9Ht.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/contact-fjPDLotH.js", "imports": ["/assets/index-DrmYegOL.js", "/assets/linkedin-CDjofyt7.js", "/assets/contact-CRDxSL-C.js", "/assets/chunk-DBLREEYE-Bsf-I9Ht.js"], "css": [] }, "routes/_index": { "id": "routes/_index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/_index-qfg9n3yD.js", "imports": ["/assets/index-DrmYegOL.js", "/assets/linkedin-CDjofyt7.js", "/assets/home-VUe2UPFX.js"], "css": [] }, "routes/about": { "id": "routes/about", "parentId": "root", "path": "about", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/about-B7O3bQyc.js", "imports": ["/assets/index-DrmYegOL.js", "/assets/linkedin-CDjofyt7.js", "/assets/about-CDpWLNqV.js"], "css": [] }, "routes/home": { "id": "routes/home", "parentId": "root", "path": "home", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/home-CFP3a5XR.js", "imports": ["/assets/index-DrmYegOL.js", "/assets/linkedin-CDjofyt7.js", "/assets/home-VUe2UPFX.js"], "css": [] } }, "url": "/assets/manifest-d74ab21d.js", "version": "d74ab21d" };
 const mode = "production";
-const assetsBuildDirectory = "build/client";
+const assetsBuildDirectory = "build\\client";
 const basename = "/";
 const future = { "v3_fetcherPersist": true, "v3_relativeSplatPath": true, "v3_throwAbortReason": true, "v3_routeConfig": false, "v3_singleFetch": false, "v3_lazyRouteDiscovery": false, "unstable_optimizeDeps": false };
 const isSpaMode = false;
