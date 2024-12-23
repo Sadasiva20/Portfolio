@@ -33,7 +33,7 @@ This portfolio showcases my ability to develop full-stack applications with an e
 - **Dynamic Project Showcase**: Easily add and showcase new projects with detailed descriptions and live links.
 - **About Me Section**: Provides insight into my background, skills, and interests.
 - **Contact Form**: A simple way for potential clients or employers to reach out to me.
-- **Blog**: Optional feature to share articles or tutorials (if implemented).
+
 
 ## Setup
 
