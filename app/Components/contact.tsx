@@ -90,7 +90,7 @@ const ContactForm = () => {
       <div className="flex flex-col min-h-screen bg-primary overflow-hidden">
         
           <meta charSet="utf-8" />
-          <h1 className="text-3xl md:text-4xl text-white font-bold text-center">Contact Me </h1>
+          <h1 className="text-3xl md:text-4xl text-white font-bold text-center">Contact Me ! </h1>
           <meta name="description" content="Contact me" />
           <meta name="keyword" content="Reach out, firstname, lastname, email, message" />
           <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self'; style-src 'self' ; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'self'; base-uri 'self'; frame-ancestors 'none';upgrade-insecure-requests;block-all-mixed-content;"/>
