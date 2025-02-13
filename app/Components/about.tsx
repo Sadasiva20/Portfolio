@@ -31,7 +31,7 @@ export default function about() {
             <section className="max-w-2xl mb-8">
                 <h3 className="text-4xl font-bold text-white mb-4 font-custom2">Work Experience</h3>
                 <p className="text-base text-white mb-6 font-custom2">
-                    I've spent a year working as a Software Engineer at <span className="font-bold">Up Cancer</span>, a nonprofit organization. Here I've had the opportunity to:
+                    I've spent years working as a Software Engineer at <span className="font-bold">Up Cancer</span>, a nonprofit organization. Here I've had the opportunity to:
                 </p>
                 <ul className="list-disc list-inside text-base text-white mb-6 font-custom2">
                     <li>Collaborate with cross-functional teams to develop front-end and back-end solutions.</li>
@@ -50,7 +50,7 @@ export default function about() {
 
                 <p className="text-base text-white mb-6 font-custom2">
                   
-                Currently, I am a Coder at <span className="font-bold">Outlier AI </span>, where I focus on training AI modules to enhance accuracy. 
+                Currently, I am a Coder at <span className="font-bold">Outlier AI </span>, where I focus on training AI models to enhance accuracy. 
 
                 </p>
             </section>
