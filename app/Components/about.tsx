@@ -10,7 +10,6 @@ export default function about() {
         <meta charSet="utf-8" />
         <title>About</title>
         <meta name="description" content="About" /> 
-        <link rel="canonical" href="https://sivasan29.com/about" />
         <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self'; style-src 'self' ; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'self'; base-uri 'self'; frame-ancestors 'none';upgrade-insecure-requests;block-all-mixed-content;"/>
         </head>
 
