@@ -30,7 +30,6 @@ export default function Experience() {
     <meta charSet="utf-8" />
     <title>Experience</title>
     <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self'; style-src 'self' ; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'self'; base-uri 'self'; frame-ancestors 'none';upgrade-insecure-requests;block-all-mixed-content;"/>
-
   <meta name = "keyword"  content = "projects, github, work experience" />
   <meta name="description" content="Experience" />
   </head>
