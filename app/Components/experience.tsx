@@ -30,10 +30,11 @@ export default function Experience() {
     <meta charSet="utf-8" />
     <title>Experience</title>
     <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self'; style-src 'self' ; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'self'; base-uri 'self'; frame-ancestors 'none';upgrade-insecure-requests;block-all-mixed-content;"/>
-  <h1 className="text-3xl md:text-4xl font-bold text-white text-center font-custom2">Experience</h1>
+
   <meta name = "keyword"  content = "projects, github, work experience" />
   <meta name="description" content="Experience" />
   </head>
+   <h1 className="text-3xl md:text-4xl font-bold text-white text-center font-custom2">Experience</h1>
   <main className="flex-grow flex flex-col items-center justify-center px-4 py-8">
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
       {cardData.map(card => (
