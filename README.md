@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Portfolio
+Welcome to my personal portfolio! This website is built using React, Node.js, Next.js, and Tailwind CSS, and serves as a showcase of my skills, projects, and journey as a web developer.
 
-## Getting Started
+Table of Contents
+Introduction
+Technologies Used
+Features
+Setup
+Introduction
+This portfolio demonstrates my proficiency in both front-end and back-end development.
 
-First, run the development server:
+On the front-end, I use React to build dynamic user interfaces, creating responsive, interactive web applications. I leverage Tailwind CSS for utility-first, highly customizable designs, ensuring fast development and a polished user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+For the back-end, I utilize Node.js to build scalable server-side applications, focusing on performance and maintainability. I also work with Next.js, a modern full-stack framework, to seamlessly handle both client-side and server-side operations for a more efficient and optimized web experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This portfolio showcases my ability to develop full-stack applications with an emphasis on clean, maintainable, and efficient code that provides exceptional user experiences across multiple devices.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Technologies Used
+React: A JavaScript library for building user interfaces.
+Node.js: JavaScript runtime used for the back-end and API development.
+Next.js: A full-stack web framework built on top of React that enables fast, dynamic websites.
+Tailwind CSS: A utility-first CSS framework that allows for rapid UI design with a focus on responsive and modern layouts.
+Git & GitHub: For version control and collaboration.
+Features
+Responsive Design: Optimized for mobile and desktop views.
+Dynamic Project Showcase: Easily add and showcase new projects with detailed descriptions and live links.
+About Me Section: Provides insight into my background, skills, and interests.
+Contact Form: A simple way for potential clients or employers to reach out to me.
