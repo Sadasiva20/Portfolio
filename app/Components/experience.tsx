@@ -40,6 +40,8 @@ export default function Experience() {
     <head>
       <meta charSet="utf-8" />
       <title>Experience</title>
+       <meta name = "keyword"  content = "projects, github, work experience" />
+       <meta name="description" content="Experience" />
     </head>
      <h1 className="text-3xl md:text-4xl font-bold text-white text-center font-custom2">Experience</h1>
     <main className="flex-grow flex flex-col items-center justify-center px-4 py-8">
