@@ -1,4 +1,4 @@
-Portfolio
+
 Welcome to my personal portfolio! This website is built using React, Node.js, Next.js, and Tailwind CSS, and serves as a showcase of my skills, projects, and journey as a web developer.
 
 Table of Contents
