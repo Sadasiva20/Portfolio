@@ -19,6 +19,8 @@ export default function About() {
         <head>
         <meta charSet="utf-8" />
         <title>About</title>
+        <meta name="description" content="About" /> 
+        <meta name ="keyword" content = "Experience, Programming, and interests"/>
         </head>
 
         <h3 className="text-3xl md:text-4xl text-white font-bold text-center font-custom2">About</h3>
