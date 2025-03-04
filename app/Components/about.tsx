@@ -4,7 +4,7 @@
 import github from '../Icons/github.svg';
 import  linkedin from '../Icons/linkedin.svg';
 import Image from 'next/image';
-import Head from 'next/head';
+
 
 import type { Metadata } from 'next'
 
@@ -17,12 +17,12 @@ export const metadata: Metadata = {
 export default function About() {
     return (
         <div className="flex flex-col min-h-screen bg-primary  ">
-        <Head>
+        <head>
         <meta charSet="utf-8" />
         <title>About</title>
         <meta name="description" content="About" /> 
         <meta name ="keyword" content = "Experience, Programming, and interests"/>
-        </Head>
+        </head>
 
         <h3 className="text-3xl md:text-4xl text-white font-bold text-center font-custom2">About</h3>
 
